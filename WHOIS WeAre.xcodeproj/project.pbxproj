@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10091D1126FF6B8600DBE3CD /* DatabaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10091D1026FF6B8600DBE3CD /* DatabaseFunctions.swift */; };
+		100A6DAD26FFA21D006A93D6 /* MainViewSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100A6DAC26FFA21D006A93D6 /* MainViewSelection.swift */; };
+		100E07E427012085007FF425 /* WHOISlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 100E07E327012085007FF425 /* WHOISlogo.png */; };
+		101FA6E22700A4160035664E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101FA6E12700A4160035664E /* Notifications.swift */; };
+		10296A0B26FF95DC0019E4D7 /* SearchQueryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10296A0A26FF95DC0019E4D7 /* SearchQueryCard.swift */; };
+		1064A4B42700FE750043EE46 /* blueTrashCan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1064A4B32700FE750043EE46 /* blueTrashCan.png */; };
+		107D533E26FFBC130059BCEE /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 107D533D26FFBC130059BCEE /* back.png */; };
+		108D785326FFA8C500342643 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 108D785226FFA8C500342643 /* background.jpg */; };
+		10B9382F26FF7936001EC9F0 /* HistoryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B9382E26FF7936001EC9F0 /* HistoryEntry.swift */; };
+		DC26A44726FF4F1300AFEFF3 /* LookupCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC26A44626FF4F1300AFEFF3 /* LookupCore.swift */; };
+		DC4492702700D21B00E5D974 /* blueAlert.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44926B2700D21B00E5D974 /* blueAlert.png */; };
+		DC4492712700D21B00E5D974 /* blueStar.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44926C2700D21B00E5D974 /* blueStar.png */; };
+		DC4492722700D21B00E5D974 /* blueBack.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44926D2700D21B00E5D974 /* blueBack.png */; };
+		DC4492732700D21B00E5D974 /* blueOptions.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44926E2700D21B00E5D974 /* blueOptions.png */; };
+		DC4492742700D21B00E5D974 /* blueMail.png in Resources */ = {isa = PBXBuildFile; fileRef = DC44926F2700D21B00E5D974 /* blueMail.png */; };
+		DC4492782700D3A300E5D974 /* blueBell.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4492752700D3A300E5D974 /* blueBell.png */; };
+		DC4492792700D3A300E5D974 /* blueHistory.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4492762700D3A300E5D974 /* blueHistory.png */; };
+		DC44927A2700D3A300E5D974 /* blueSearch.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4492772700D3A300E5D974 /* blueSearch.png */; };
+		DC559A7526FE8CB100084954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC559A7426FE8CB100084954 /* AppDelegate.swift */; };
+		DC559A7726FE8CB100084954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC559A7626FE8CB100084954 /* SceneDelegate.swift */; };
+		DC559A7926FE8CB100084954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC559A7826FE8CB100084954 /* ViewController.swift */; };
+		DC559A7C26FE8CB100084954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC559A7A26FE8CB100084954 /* Main.storyboard */; };
+		DC559A7F26FE8CB100084954 /* WHOIS_WeAre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC559A7D26FE8CB100084954 /* WHOIS_WeAre.xcdatamodeld */; };
+		DC559A8126FE8CB200084954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC559A8026FE8CB200084954 /* Assets.xcassets */; };
+		DC559A8426FE8CB200084954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC559A8226FE8CB200084954 /* LaunchScreen.storyboard */; };
+		DC559A8F26FE8CB200084954 /* WHOIS_WeAreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC559A8E26FE8CB200084954 /* WHOIS_WeAreTests.swift */; };
+		DC559A9A26FE8CB200084954 /* WHOIS_WeAreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC559A9926FE8CB200084954 /* WHOIS_WeAreUITests.swift */; };
+		DC73316A26FEAD2B00491B71 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73316926FEAD2B00491B71 /* SearchViewController.swift */; };
+		DC73316C26FEB3AC00491B71 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73316B26FEB3AC00491B71 /* FavoritesViewController.swift */; };
+		DC73316E26FEB3D900491B71 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73316D26FEB3D900491B71 /* OptionsViewController.swift */; };
+		DC73317026FEB46100491B71 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73316F26FEB46100491B71 /* HistoryViewController.swift */; };
+		DC73317426FF44FF00491B71 /* MainViewSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73317326FF44FF00491B71 /* MainViewSelectionButton.swift */; };
+		DC73317626FF4AB200491B71 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73317526FF4AB200491B71 /* BackButton.swift */; };
+		DC73317826FF4DC900491B71 /* SearchButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC73317726FF4DC900491B71 /* SearchButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC559A8B26FE8CB200084954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC559A6926FE8CB100084954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC559A7026FE8CB100084954;
+			remoteInfo = "WHOIS WeAre";
+		};
+		DC559A9626FE8CB200084954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC559A6926FE8CB100084954 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC559A7026FE8CB100084954;
+			remoteInfo = "WHOIS WeAre";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10091D1026FF6B8600DBE3CD /* DatabaseFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFunctions.swift; sourceTree = "<group>"; };
+		100A6DAC26FFA21D006A93D6 /* MainViewSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewSelection.swift; sourceTree = "<group>"; };
+		100E07E327012085007FF425 /* WHOISlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WHOISlogo.png; sourceTree = "<group>"; };
+		101FA6E12700A4160035664E /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		10296A0A26FF95DC0019E4D7 /* SearchQueryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQueryCard.swift; sourceTree = "<group>"; };
+		1064A4B32700FE750043EE46 /* blueTrashCan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueTrashCan.png; sourceTree = "<group>"; };
+		107D533D26FFBC130059BCEE /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		107D534026FFBD3B0059BCEE /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		107D534126FFBD3B0059BCEE /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		107D534226FFBD3B0059BCEE /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		107D534326FFBD3B0059BCEE /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		107D534426FFBD3C0059BCEE /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		107D534526FFBD3C0059BCEE /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		107D534626FFBD3C0059BCEE /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		107D534726FFBD3C0059BCEE /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		107D534826FFBD3C0059BCEE /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		107D534926FFBD3C0059BCEE /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		107D534A26FFBD3C0059BCEE /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		107D534B26FFBD3D0059BCEE /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		107D534C26FFBD3D0059BCEE /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		107D534D26FFBD3D0059BCEE /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		107D534E26FFBD3D0059BCEE /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		107D534F26FFBD3D0059BCEE /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		107D535026FFBD3D0059BCEE /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		107D535126FFBD3D0059BCEE /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		108D785226FFA8C500342643 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		10B9382E26FF7936001EC9F0 /* HistoryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryEntry.swift; sourceTree = "<group>"; };
+		DC26A44626FF4F1300AFEFF3 /* LookupCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupCore.swift; sourceTree = "<group>"; };
+		DC44926B2700D21B00E5D974 /* blueAlert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueAlert.png; sourceTree = "<group>"; };
+		DC44926C2700D21B00E5D974 /* blueStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStar.png; sourceTree = "<group>"; };
+		DC44926D2700D21B00E5D974 /* blueBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBack.png; sourceTree = "<group>"; };
+		DC44926E2700D21B00E5D974 /* blueOptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueOptions.png; sourceTree = "<group>"; };
+		DC44926F2700D21B00E5D974 /* blueMail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueMail.png; sourceTree = "<group>"; };
+		DC4492752700D3A300E5D974 /* blueBell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueBell.png; sourceTree = "<group>"; };
+		DC4492762700D3A300E5D974 /* blueHistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueHistory.png; sourceTree = "<group>"; };
+		DC4492772700D3A300E5D974 /* blueSearch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueSearch.png; sourceTree = "<group>"; };
+		DC559A7126FE8CB100084954 /* WHOIS WeAre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WHOIS WeAre.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC559A7426FE8CB100084954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC559A7626FE8CB100084954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC559A7826FE8CB100084954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC559A7B26FE8CB100084954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC559A7E26FE8CB100084954 /* WHOIS_WeAre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WHOIS_WeAre.xcdatamodel; sourceTree = "<group>"; };
+		DC559A8026FE8CB200084954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC559A8326FE8CB200084954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC559A8526FE8CB200084954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC559A8A26FE8CB200084954 /* WHOIS WeAreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WHOIS WeAreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC559A8E26FE8CB200084954 /* WHOIS_WeAreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOIS_WeAreTests.swift; sourceTree = "<group>"; };
+		DC559A9026FE8CB200084954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC559A9526FE8CB200084954 /* WHOIS WeAreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WHOIS WeAreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC559A9926FE8CB200084954 /* WHOIS_WeAreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOIS_WeAreUITests.swift; sourceTree = "<group>"; };
+		DC559A9B26FE8CB200084954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC73316926FEAD2B00491B71 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DC73316B26FEB3AC00491B71 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		DC73316D26FEB3D900491B71 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		DC73316F26FEB46100491B71 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		DC73317326FF44FF00491B71 /* MainViewSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewSelectionButton.swift; sourceTree = "<group>"; };
+		DC73317526FF4AB200491B71 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		DC73317726FF4DC900491B71 /* SearchButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC559A6E26FE8CB100084954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC559A8726FE8CB200084954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC559A9226FE8CB200084954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1064B71B27007ED100CD8E54 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC559A7826FE8CB100084954 /* ViewController.swift */,
+				DC73316926FEAD2B00491B71 /* SearchViewController.swift */,
+				DC73316D26FEB3D900491B71 /* OptionsViewController.swift */,
+				DC73316B26FEB3AC00491B71 /* FavoritesViewController.swift */,
+				DC73316F26FEB46100491B71 /* HistoryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1064B71C27007F0000CD8E54 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				100E07E327012085007FF425 /* WHOISlogo.png */,
+				1064A4B32700FE750043EE46 /* blueTrashCan.png */,
+				DC44926B2700D21B00E5D974 /* blueAlert.png */,
+				DC44926D2700D21B00E5D974 /* blueBack.png */,
+				DC44926F2700D21B00E5D974 /* blueMail.png */,
+				DC44926E2700D21B00E5D974 /* blueOptions.png */,
+				DC44926C2700D21B00E5D974 /* blueStar.png */,
+				DC4492752700D3A300E5D974 /* blueBell.png */,
+				DC4492762700D3A300E5D974 /* blueHistory.png */,
+				DC4492772700D3A300E5D974 /* blueSearch.png */,
+				108D785226FFA8C500342643 /* background.jpg */,
+				107D533D26FFBC130059BCEE /* back.png */,
+			);
+			path = pictures;
+			sourceTree = "<group>";
+		};
+		1064B71D27007F3200CD8E54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10B9382E26FF7936001EC9F0 /* HistoryEntry.swift */,
+				10296A0A26FF95DC0019E4D7 /* SearchQueryCard.swift */,
+				DC73317326FF44FF00491B71 /* MainViewSelectionButton.swift */,
+				100A6DAC26FFA21D006A93D6 /* MainViewSelection.swift */,
+				DC73317726FF4DC900491B71 /* SearchButton.swift */,
+				DC73317526FF4AB200491B71 /* BackButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1064B71F27007F8600CD8E54 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				DC26A44626FF4F1300AFEFF3 /* LookupCore.swift */,
+				10091D1026FF6B8600DBE3CD /* DatabaseFunctions.swift */,
+				101FA6E12700A4160035664E /* Notifications.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		107D533F26FFBD180059BCEE /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				107D534F26FFBD3D0059BCEE /* Lato-Black.ttf */,
+				107D534D26FFBD3D0059BCEE /* Lato-BlackItalic.ttf */,
+				107D534226FFBD3B0059BCEE /* Lato-Bold.ttf */,
+				107D535126FFBD3D0059BCEE /* Lato-BoldItalic.ttf */,
+				107D534426FFBD3C0059BCEE /* Lato-Hairline.ttf */,
+				107D534526FFBD3C0059BCEE /* Lato-HairlineItalic.ttf */,
+				107D534A26FFBD3C0059BCEE /* Lato-Heavy.ttf */,
+				107D534326FFBD3B0059BCEE /* Lato-HeavyItalic.ttf */,
+				107D534826FFBD3C0059BCEE /* Lato-Italic.ttf */,
+				107D535026FFBD3D0059BCEE /* Lato-Light.ttf */,
+				107D534626FFBD3C0059BCEE /* Lato-LightItalic.ttf */,
+				107D534926FFBD3C0059BCEE /* Lato-Medium.ttf */,
+				107D534126FFBD3B0059BCEE /* Lato-MediumItalic.ttf */,
+				107D534C26FFBD3D0059BCEE /* Lato-Regular.ttf */,
+				107D534B26FFBD3D0059BCEE /* Lato-Semibold.ttf */,
+				107D534E26FFBD3D0059BCEE /* Lato-SemiboldItalic.ttf */,
+				107D534026FFBD3B0059BCEE /* Lato-Thin.ttf */,
+				107D534726FFBD3C0059BCEE /* Lato-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		DC559A6826FE8CB100084954 = {
+			isa = PBXGroup;
+			children = (
+				DC559A7326FE8CB100084954 /* WHOIS WeAre */,
+				DC559A8D26FE8CB200084954 /* WHOIS WeAreTests */,
+				DC559A9826FE8CB200084954 /* WHOIS WeAreUITests */,
+				DC559A7226FE8CB100084954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC559A7226FE8CB100084954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC559A7126FE8CB100084954 /* WHOIS WeAre.app */,
+				DC559A8A26FE8CB200084954 /* WHOIS WeAreTests.xctest */,
+				DC559A9526FE8CB200084954 /* WHOIS WeAreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC559A7326FE8CB100084954 /* WHOIS WeAre */ = {
+			isa = PBXGroup;
+			children = (
+				DC559A7426FE8CB100084954 /* AppDelegate.swift */,
+				DC559A7626FE8CB100084954 /* SceneDelegate.swift */,
+				1064B71F27007F8600CD8E54 /* Functions */,
+				107D533F26FFBD180059BCEE /* fonts */,
+				1064B71C27007F0000CD8E54 /* pictures */,
+				1064B71B27007ED100CD8E54 /* ViewControllers */,
+				1064B71D27007F3200CD8E54 /* View */,
+				DC559A7A26FE8CB100084954 /* Main.storyboard */,
+				DC559A8026FE8CB200084954 /* Assets.xcassets */,
+				DC559A8226FE8CB200084954 /* LaunchScreen.storyboard */,
+				DC559A8526FE8CB200084954 /* Info.plist */,
+				DC559A7D26FE8CB100084954 /* WHOIS_WeAre.xcdatamodeld */,
+			);
+			path = "WHOIS WeAre";
+			sourceTree = "<group>";
+		};
+		DC559A8D26FE8CB200084954 /* WHOIS WeAreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC559A8E26FE8CB200084954 /* WHOIS_WeAreTests.swift */,
+				DC559A9026FE8CB200084954 /* Info.plist */,
+			);
+			path = "WHOIS WeAreTests";
+			sourceTree = "<group>";
+		};
+		DC559A9826FE8CB200084954 /* WHOIS WeAreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC559A9926FE8CB200084954 /* WHOIS_WeAreUITests.swift */,
+				DC559A9B26FE8CB200084954 /* Info.plist */,
+			);
+			path = "WHOIS WeAreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC559A7026FE8CB100084954 /* WHOIS WeAre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC559A9E26FE8CB200084954 /* Build configuration list for PBXNativeTarget "WHOIS WeAre" */;
+			buildPhases = (
+				DC559A6D26FE8CB100084954 /* Sources */,
+				DC559A6E26FE8CB100084954 /* Frameworks */,
+				DC559A6F26FE8CB100084954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WHOIS WeAre";
+			productName = "WHOIS WeAre";
+			productReference = DC559A7126FE8CB100084954 /* WHOIS WeAre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC559A8926FE8CB200084954 /* WHOIS WeAreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC559AA126FE8CB200084954 /* Build configuration list for PBXNativeTarget "WHOIS WeAreTests" */;
+			buildPhases = (
+				DC559A8626FE8CB200084954 /* Sources */,
+				DC559A8726FE8CB200084954 /* Frameworks */,
+				DC559A8826FE8CB200084954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC559A8C26FE8CB200084954 /* PBXTargetDependency */,
+			);
+			name = "WHOIS WeAreTests";
+			productName = "WHOIS WeAreTests";
+			productReference = DC559A8A26FE8CB200084954 /* WHOIS WeAreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC559A9426FE8CB200084954 /* WHOIS WeAreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC559AA426FE8CB200084954 /* Build configuration list for PBXNativeTarget "WHOIS WeAreUITests" */;
+			buildPhases = (
+				DC559A9126FE8CB200084954 /* Sources */,
+				DC559A9226FE8CB200084954 /* Frameworks */,
+				DC559A9326FE8CB200084954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC559A9726FE8CB200084954 /* PBXTargetDependency */,
+			);
+			name = "WHOIS WeAreUITests";
+			productName = "WHOIS WeAreUITests";
+			productReference = DC559A9526FE8CB200084954 /* WHOIS WeAreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC559A6926FE8CB100084954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Filip Ivanovic";
+				TargetAttributes = {
+					DC559A7026FE8CB100084954 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					DC559A8926FE8CB200084954 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = DC559A7026FE8CB100084954;
+					};
+					DC559A9426FE8CB200084954 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = DC559A7026FE8CB100084954;
+					};
+				};
+			};
+			buildConfigurationList = DC559A6C26FE8CB100084954 /* Build configuration list for PBXProject "WHOIS WeAre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC559A6826FE8CB100084954;
+			productRefGroup = DC559A7226FE8CB100084954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC559A7026FE8CB100084954 /* WHOIS WeAre */,
+				DC559A8926FE8CB200084954 /* WHOIS WeAreTests */,
+				DC559A9426FE8CB200084954 /* WHOIS WeAreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC559A6F26FE8CB100084954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D785326FFA8C500342643 /* background.jpg in Resources */,
+				DC559A8426FE8CB200084954 /* LaunchScreen.storyboard in Resources */,
+				DC4492712700D21B00E5D974 /* blueStar.png in Resources */,
+				DC4492732700D21B00E5D974 /* blueOptions.png in Resources */,
+				DC4492702700D21B00E5D974 /* blueAlert.png in Resources */,
+				107D533E26FFBC130059BCEE /* back.png in Resources */,
+				DC4492782700D3A300E5D974 /* blueBell.png in Resources */,
+				DC4492722700D21B00E5D974 /* blueBack.png in Resources */,
+				DC559A8126FE8CB200084954 /* Assets.xcassets in Resources */,
+				DC4492792700D3A300E5D974 /* blueHistory.png in Resources */,
+				100E07E427012085007FF425 /* WHOISlogo.png in Resources */,
+				DC559A7C26FE8CB100084954 /* Main.storyboard in Resources */,
+				1064A4B42700FE750043EE46 /* blueTrashCan.png in Resources */,
+				DC44927A2700D3A300E5D974 /* blueSearch.png in Resources */,
+				DC4492742700D21B00E5D974 /* blueMail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC559A8826FE8CB200084954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC559A9326FE8CB200084954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC559A6D26FE8CB100084954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC73316A26FEAD2B00491B71 /* SearchViewController.swift in Sources */,
+				10B9382F26FF7936001EC9F0 /* HistoryEntry.swift in Sources */,
+				DC559A7926FE8CB100084954 /* ViewController.swift in Sources */,
+				10091D1126FF6B8600DBE3CD /* DatabaseFunctions.swift in Sources */,
+				DC559A7F26FE8CB100084954 /* WHOIS_WeAre.xcdatamodeld in Sources */,
+				DC73316E26FEB3D900491B71 /* OptionsViewController.swift in Sources */,
+				DC73317626FF4AB200491B71 /* BackButton.swift in Sources */,
+				DC559A7526FE8CB100084954 /* AppDelegate.swift in Sources */,
+				100A6DAD26FFA21D006A93D6 /* MainViewSelection.swift in Sources */,
+				DC26A44726FF4F1300AFEFF3 /* LookupCore.swift in Sources */,
+				DC73316C26FEB3AC00491B71 /* FavoritesViewController.swift in Sources */,
+				DC73317826FF4DC900491B71 /* SearchButton.swift in Sources */,
+				DC559A7726FE8CB100084954 /* SceneDelegate.swift in Sources */,
+				101FA6E22700A4160035664E /* Notifications.swift in Sources */,
+				DC73317426FF44FF00491B71 /* MainViewSelectionButton.swift in Sources */,
+				10296A0B26FF95DC0019E4D7 /* SearchQueryCard.swift in Sources */,
+				DC73317026FEB46100491B71 /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC559A8626FE8CB200084954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC559A8F26FE8CB200084954 /* WHOIS_WeAreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC559A9126FE8CB200084954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC559A9A26FE8CB200084954 /* WHOIS_WeAreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC559A8C26FE8CB200084954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC559A7026FE8CB100084954 /* WHOIS WeAre */;
+			targetProxy = DC559A8B26FE8CB200084954 /* PBXContainerItemProxy */;
+		};
+		DC559A9726FE8CB200084954 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC559A7026FE8CB100084954 /* WHOIS WeAre */;
+			targetProxy = DC559A9626FE8CB200084954 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC559A7A26FE8CB100084954 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC559A7B26FE8CB100084954 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC559A8226FE8CB200084954 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC559A8326FE8CB200084954 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC559A9C26FE8CB200084954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC559A9D26FE8CB200084954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC559A9F26FE8CB200084954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97ZPT3BS78;
+				INFOPLIST_FILE = "WHOIS WeAre/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksami.WHOIS-WeAre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC559AA026FE8CB200084954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97ZPT3BS78;
+				INFOPLIST_FILE = "WHOIS WeAre/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksami.WHOIS-WeAre";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC559AA226FE8CB200084954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSFYL2BSGU;
+				INFOPLIST_FILE = "WHOIS WeAreTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jd.WHOIS-WeAreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHOIS WeAre.app/WHOIS WeAre";
+			};
+			name = Debug;
+		};
+		DC559AA326FE8CB200084954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSFYL2BSGU;
+				INFOPLIST_FILE = "WHOIS WeAreTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jd.WHOIS-WeAreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHOIS WeAre.app/WHOIS WeAre";
+			};
+			name = Release;
+		};
+		DC559AA526FE8CB200084954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSFYL2BSGU;
+				INFOPLIST_FILE = "WHOIS WeAreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jd.WHOIS-WeAreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WHOIS WeAre";
+			};
+			name = Debug;
+		};
+		DC559AA626FE8CB200084954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSFYL2BSGU;
+				INFOPLIST_FILE = "WHOIS WeAreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jd.WHOIS-WeAreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WHOIS WeAre";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC559A6C26FE8CB100084954 /* Build configuration list for PBXProject "WHOIS WeAre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC559A9C26FE8CB200084954 /* Debug */,
+				DC559A9D26FE8CB200084954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC559A9E26FE8CB200084954 /* Build configuration list for PBXNativeTarget "WHOIS WeAre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC559A9F26FE8CB200084954 /* Debug */,
+				DC559AA026FE8CB200084954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC559AA126FE8CB200084954 /* Build configuration list for PBXNativeTarget "WHOIS WeAreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC559AA226FE8CB200084954 /* Debug */,
+				DC559AA326FE8CB200084954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC559AA426FE8CB200084954 /* Build configuration list for PBXNativeTarget "WHOIS WeAreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC559AA526FE8CB200084954 /* Debug */,
+				DC559AA626FE8CB200084954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC559A7D26FE8CB100084954 /* WHOIS_WeAre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC559A7E26FE8CB100084954 /* WHOIS_WeAre.xcdatamodel */,
+			);
+			currentVersion = DC559A7E26FE8CB100084954 /* WHOIS_WeAre.xcdatamodel */;
+			path = WHOIS_WeAre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC559A6926FE8CB100084954 /* Project object */;
+}
